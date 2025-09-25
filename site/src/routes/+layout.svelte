@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>websites / thecasualdev</title>
+	<link rel="icon" href={favicon} />
 </svelte:head>
 
 {@render children?.()}
