@@ -1,6 +1,7 @@
 <script lang="ts">
 
 	import favicon from '$lib/assets/favicon.svg';
+	import { page } from '$app/state'
 	import './styles.css'
 
 	let { children } = $props();
@@ -11,6 +12,9 @@
 
 	<title>Hello, World!</title>
 	<link rel="icon" href={favicon} />
+
+	<meta property="og:title" content="Hello, World">
+	<meta property="og:link" content={page.url.href}>
 	
 </svelte:head>
 
