@@ -14,6 +14,8 @@
 	<link rel="icon" href={favicon} />
 
 	<meta property="og:link" content={page.url.href}>
+	<meta property="og:title" content="websites, by the casualdev">	
+	<meta property="og:description" content="websites is my project towards making a bunch of small websites for my portfolio"/>
 	
 </svelte:head>
 
