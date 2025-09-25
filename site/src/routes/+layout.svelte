@@ -13,7 +13,6 @@
 	<title>Hello, World!</title>
 	<link rel="icon" href={favicon} />
 
-	<meta property="og:title" content="Hello, World">
 	<meta property="og:link" content={page.url.href}>
 	
 </svelte:head>
